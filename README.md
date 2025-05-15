@@ -5,8 +5,7 @@
 </h1>
 
 <p align="center">
-  <strong>Decentralized Identity. Simplified.</strong><br>
-  Privacy-first identity verification using modern web technologies.
+  <em>A decentralized identity verification system — secure, simple, private.</em>
 </p>
 
 <p align="center">
