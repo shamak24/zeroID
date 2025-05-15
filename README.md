@@ -1,16 +1,19 @@
-<h1 align="center" style="color:#007FFF;">ZeroID <span style="font-size:1.2rem;">🔐</span></h1>
+<h1 align="center">
+  <img src="./client/public/zeroidLogo.png" alt="ZeroID Logo" width="80" />
+  <br>
+  <span style="color:#0ea5e9">ZeroID</span> 🔐
+</h1>
 
 <p align="center">
-  <em>A decentralized identity verification system — secure, simple, private.</em>
+  <strong>Decentralized Identity. Simplified.</strong><br>
+  Privacy-first identity verification using modern web technologies.
 </p>
 
-<hr>
-
-<h2>🔍 About ZeroID</h2>
-
-<p>
-ZeroID empowers users to verify their identity online <strong>without sharing sensitive personal documents.</strong><br>
-Simplifying identity verification while drastically reducing the risk of identity theft through decentralized digital credentials.
+<p align="center">
+  <img src="https://img.shields.io/badge/frontend-react-blue?style=flat-square&logo=react" />
+  <img src="https://img.shields.io/badge/backend-express-green?style=flat-square&logo=express" />
+  <img src="https://img.shields.io/badge/database-postgres-blue?style=flat-square&logo=postgresql" />
+  <img src="https://img.shields.io/badge/styling-tailwindcss-38bdf8?style=flat-square&logo=tailwind-css" />
 </p>
 
 <hr>
