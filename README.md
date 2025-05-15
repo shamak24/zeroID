@@ -2,6 +2,13 @@
 
 <p align="center">
   <em>A decentralized identity verification system — secure, simple, private.</em>
+
+  <p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React-blue?style=plastic" />
+  <img src="https://img.shields.io/badge/Backend-Express-black?style=plastic" />
+  <img src="https://img.shields.io/badge/UI-TailwindCSS-38bdf8?style=plastic" />
+  <img src="https://img.shields.io/badge/Database-PostgreSQL-336791?style=plastic" />
+</p>
 </p>
 
 <hr>
