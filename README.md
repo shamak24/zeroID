@@ -67,7 +67,7 @@ root/
 <h2>⚙️ Setup & Run</h2>
 
 <h3>1. Clone the repo</h3>
-<pre><code>git clone https://github.com/shamak24/zeroid.git
+<pre><code>git clone https://github.com/shamak24/zeroID.git
 cd zeroid
 </code></pre>
 
