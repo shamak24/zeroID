@@ -6,13 +6,14 @@ import Features from "./components/landing/Features";
 import CTA from "./components/landing/CTA";
 import Footer from "./components/landing/Footer";
 
+
 function App() {
   return (
-    <div className="font-sans text-gray-800">
+    <div className="font-sans text-gray-800 bg-gradient-to-r from-purple-300 via-pink-200 to-red-150 animate-gradient min-h-screen">
       <Navbar />
       <HeroSection />
-      <HowItWorks />
       <Features />
+      <HowItWorks />
       <CTA />
       <Footer />
     </div>

@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 function HowItWorks() {
   return (
-    <section className="py-16 bg-white px-4 sm:px-6 text-center">
-      <h3 className="text-2xl sm:text-3xl font-semibold mb-10 text-indigo-700">How It Works</h3>
+    <section className="py-16 px-4 sm:px-6 text-center">
+      <h3 className="text-2xl sm:text-3xl font-bold mb-10 text-indigo-700">How It Works</h3>
       <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 max-w-5xl mx-auto">
         {["Register", "Verify", "Access"].map((step, index) => (
           <motion.div

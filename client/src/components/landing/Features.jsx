@@ -8,8 +8,8 @@ function Features() {
   ];
 
   return (
-    <section className="py-16 bg-gray-50 px-4 sm:px-6 text-center">
-      <h3 className="text-2xl sm:text-3xl font-semibold mb-10 text-indigo-700">Key Features</h3>
+    <section className="py-16 px-4 sm:px-6 text-center">
+      <h2 className="text-2xl sm:text-3xl font-bold mb-10 text-indigo-700">Key Features</h2>
       <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 max-w-5xl mx-auto">
         {features.map(([title, desc], index) => (
           <motion.div
