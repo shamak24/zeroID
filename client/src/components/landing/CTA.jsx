@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 function CTA() {
   return (
@@ -8,6 +9,7 @@ function CTA() {
         <h4 className="text-3xl font-extrabold text-white mb-6 leading-tight">
           Ready to try <span className="text-indigo-300">zeroID?</span>
         </h4>
+        <Link to="/dashboard">
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -15,6 +17,7 @@ function CTA() {
         >
           Get Started Now
         </motion.button>
+        </Link>
       </div>
     </section>
   );

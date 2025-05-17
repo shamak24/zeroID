@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import identityAnimation from "/LandingVideo.mp4";
+import { Link } from "react-router-dom";
 
 function HeroSection() {
   return (
@@ -25,6 +26,7 @@ function HeroSection() {
           A fast, secure, and privacy-first identity verification platform that keeps your personal data safe.
         </motion.p>
 
+        <Link to="/dashboard">
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -32,6 +34,7 @@ function HeroSection() {
         >
           Get Started
         </motion.button>
+        </Link>
       </div>
 
       {/* Right Video Section */}
@@ -45,6 +48,7 @@ function HeroSection() {
           src={identityAnimation}
           autoPlay
           loop
+          muted
           playsInline
           controls
           className="w-full max-w-[90vw] sm:max-w-lg md:max-w-4xl lg:max-w-4xl rounded-xl shadow-2xl"

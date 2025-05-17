@@ -1,22 +1,21 @@
-// src/App.jsx
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 import Navbar from "./components/landing/Navbar";
-import HeroSection from "./components/landing/HeroSection";
-import HowItWorks from "./components/landing/HowItWorks";
-import Features from "./components/landing/Features";
-import CTA from "./components/landing/CTA";
-import Footer from "./components/landing/Footer";
-
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
-    <div className="font-sans text-gray-800 bg-gradient-to-r from-purple-300 via-pink-200 to-red-150 animate-gradient min-h-screen">
+    <Router>
       <Navbar />
-      <HeroSection />
-      <Features />
-      <HowItWorks />
-      <CTA />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+
+
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 }
 
