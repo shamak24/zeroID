@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import identityAnimation from "./Understanding ZeroID  Your Digital Passport_free.mp4";
+import identityAnimation from "/LandingVideo.mp4";
 
 function HeroSection() {
   return (
