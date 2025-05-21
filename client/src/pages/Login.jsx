@@ -35,12 +35,14 @@ export default function Login() {
                 required
                 />
             </div>
+            <Link to ="/Dashboard">
             <button
                 type="submit"
                 className="bg-indigo-600 text-white p-2 rounded w-full hover:bg-indigo-800 cursor-pointer transition duration-200"
             >
                 Login
             </button>
+            </Link>
             </form>
             <p className="mt-4 text-center">
             Don't have an account?

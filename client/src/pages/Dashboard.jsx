@@ -11,7 +11,7 @@ export default function Dashboard() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-purple-300 via-pink-200 to-red-150 animate-gradient">
       <div className="flex-1 p-6 space-y-6">
-        <Header user={{ name: "Jane Doe", email: "jane@zeroid.xyz" }} />
+        <Header user={{ name: "Harsh", email: "harshb@gmail.com" }} />
         <StatsCards
           stats={[
             { title: "Login Count", value: "42" },
@@ -23,8 +23,8 @@ export default function Dashboard() {
         <ActionButtons />
         <LoginHistory
           logs={[
-            { date: "2025-05-19", location: "New York, USA", device: "Chrome" },
-            { date: "2025-05-17", location: "Berlin, DE", device: "Firefox" },
+            { date: "2025-05-19", location: "Hardiwar", device: "Chrome" },
+            { date: "2025-05-17", location: "kolkata", device: "Firefox" },
             { date: "2025-05-15", location: "Delhi, IN", device: "Edge" },
           ]}
         />

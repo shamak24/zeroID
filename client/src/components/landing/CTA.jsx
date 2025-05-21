@@ -9,7 +9,7 @@ function CTA() {
         <h4 className="text-3xl font-extrabold text-white mb-6 leading-tight">
           Ready to try <span className="text-indigo-300">zeroID?</span>
         </h4>
-        <Link to="/dashboard">
+        <Link to="/Login">
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
