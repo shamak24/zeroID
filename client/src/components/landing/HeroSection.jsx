@@ -26,7 +26,7 @@ function HeroSection() {
           A fast, secure, and privacy-first identity verification platform that keeps your personal data safe.
         </motion.p>
 
-        <Link to="/dashboard">
+        <Link to="/Login">
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
